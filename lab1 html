@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | lokesh thoti</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <header>
+        <nav>
+            <h2 class="logo">Portfolio</h2>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-text">
+
+            <h1>lokesh thoti</h1>
+
+            <h3>information technology Student</h3>
+
+            <p>
+                Passionate about Web Development, Python, AI and Machine Learning.
+                I love learning new technologies and building real-world projects.
+            </p>
+
+            <a href="#contact" class="btn">Hire Me</a>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="profile.jpg" alt="Profile">
+
+        </div>
+
+    </section>
+
+    <!-- About -->
+
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            Hello! I am <strong>lokesh thoti</strong>, pursuing B.Tech in
+            <mark>information technology</mark>.
+        </p> 
+
+        <p>
+            I enjoy developing websites, learning Python, Flask and Machine Learning.
+        </p>
+
+        <p>
+            My strengths are <em>Hardworking</em>, Quick Learner and Confident.
+        </p>
+
+    </section>
+
+    <!-- Skills -->
+
+    <section id="skills">
+
+        <h2>Skills</h2>
+
+        <div class="cards">
+
+            <div class="card">HTML</div>
+            <div class="card">CSS</div>
+            <div class="card">JavaScript</div>
+            <div class="card">Python</div>
+            <div class="card">Flask</div>
+            <div class="card">SQL</div>
+
+        </div>
+
+    </section>
+
+    <!-- Education -->
+
+    <section id="education">
+
+        <h2>Education</h2>
+
+        <table>
+
+            <tr>
+                <th>Qualification</th>
+                <th>Institution</th>
+            </tr>
+
+            <tr>
+                <td>10th</td>
+                <td>ZPHS Kadumu</td>
+            </tr>
+
+            <tr>
+                <td>Intermediate</td>
+                <td>Aditya Junior College</td>
+            </tr>
+
+            <tr>
+                <td>B.Tech it </td>
+                <td>ANITS</td>
+            </tr>
+
+        </table>
+
+    </section>
+
+    <!-- Projects -->
+
+    <section id="projects">
+
+        <h2>Projects</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Portfolio Website</h3>
+                <p>Designed using HTML & CSS.</p>
+            </div>
+
+            <div class="card">
+                <h3>Expense Tracker</h3>
+                <p>Python + Flask Project.</p>
+            </div>
+
+            <div class="card">
+                <h3>Face Recognition Attendance</h3>
+                <p>AI based Attendance System.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+
+    <section id="contact">
+
+        <h2>Contact Me</h2>
+
+        <form>
+
+            <input type="text" placeholder="Your Name" required>
+
+            <input type="email" placeholder="Email" required>
+
+            <textarea rows="5" placeholder="Message"></textarea>
+
+            <button type="submit">Send</button>
+
+        </form>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>© 2026 lokesh thoti | All Rights Reserved</p>
+
+    </footer>
+
+</body>
+
+</html>
